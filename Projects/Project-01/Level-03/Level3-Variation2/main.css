@@ -1,0 +1,26 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:gray;
+}
+
+.pattern-1{
+	float: left;
+	width: 300px;
+	height: 700px;
+	margin: 20px;
+	background-color: #dadada;
+}
+
+p{
+	width: 100%;
+	margin: 10px;
+}
+
+img{
+	float: left;
+	margin: 50px;
+}

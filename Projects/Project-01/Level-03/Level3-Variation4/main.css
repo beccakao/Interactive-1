@@ -1,0 +1,63 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background: white;
+}
+
+.pattern-1{
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin: 20;
+	background-color: #dadada;
+}
+.spacing0{
+	position: absolute;
+}
+
+.spacing1{
+	position: absolute;
+}
+
+.spacing2{
+	padding: 80px 20px;
+	position: absolute;
+}
+
+.spacing3{
+	padding: 160px 40px;
+	position: absolute;
+}
+
+.spacing4{
+	padding: 240px 60px;
+	position: absolute;
+}
+
+.spacing5{
+	padding: 320px 80px;
+	position: absolute;
+}
+
+.spacing6{
+	padding: 400px 100px;
+	position: absolute;
+}
+
+.spacing7{
+	padding: 600px 200px;
+	position: absolute;
+}
+
+p{
+	width: 500px;
+	margin: 10px;
+}
+
+img{
+	float: right;
+	margin: 50px;
+}

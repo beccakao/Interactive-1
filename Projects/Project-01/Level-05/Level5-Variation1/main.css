@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:black;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+}
+
+.square{
+	transition:width 2s ease;
+	width: 350px;
+	height: 222px;
+	background: blue;
+	float: left;
+	margin-right: 5px;
+}
+
+.square:hover{
+	width: 1180px;
+}
+
+.square2{
+	transition:width 2s ease;
+	width: 888px;
+	height: 222px;
+	background: white;
+	float: left;
+	margin-right: 5px;
+}
+
+.square2:hover{
+	width: 1180px;
+}
+
+.square3{
+	transition:width 2s ease;
+	width: 888px;
+	height: 222px;
+	background: red;
+	float: left;
+	margin-right: 5px;
+
+}
+
+.square3:hover{
+	width: 1160px;
+}

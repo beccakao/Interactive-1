@@ -1,0 +1,57 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background: white;
+}
+
+.pattern-1{
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin: 20;
+	background-color: #dadada;
+}
+.spacing0{
+	position: absolute;
+}
+
+.spacing1{
+	padding: 13px 13px;
+	position: absolute;
+}
+
+.spacing2{
+	padding: 10px 10px;
+	position: absolute;
+}
+
+.poem0{
+	color:#ADD8E6;
+	font-family: "Brush Script MT",cursive;
+	font-size: 22px;
+}
+
+.poem1{
+	color:gray;
+	font-family: Courier;
+	font-size: 22px;
+}
+
+.poem2{
+	color:black;
+	font-family: Courier;
+	font-size: 22px;
+}
+
+p{
+	width: 1000px;
+	margin: 10px;
+}
+
+img{
+	float: right;
+	margin: 50px;
+}

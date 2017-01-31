@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:black;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 30
+	margin-right: 300;
+	margin-left: 300;
+}
+
+.spacing{
+	position: left;
+	color: white;
+
+}
+
+.spacing2{
+	position: absolute;
+	padding-top: 10px;
+	margin-left: 350px;
+	color: black;
+
+}
+
+.rect{
+	transition:height 10s ease;
+	width: 1300px;
+	height: 5px;
+	background: white;
+	float: left;
+	margin-right: 5px;
+}
+
+.rect:hover{
+	height:726px;
+}

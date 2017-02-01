@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:black;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 30
+	margin-right: 300;
+	margin-left: 300;
+}
+
+.spacing{
+	position: left;
+	color: white;
+
+}
+
+.spacing2{
+	margin-top: 500px;
+	color: white;
+}
+
+.circle{
+	position: absolute;
+	transition: background 2s ease;
+	width: 200px;
+	height: 200px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 400px;
+	float: left;
+	margin-top: 400px;
+}
+
+.circle:hover{
+	background: black;
+}

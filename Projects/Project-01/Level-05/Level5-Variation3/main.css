@@ -4,7 +4,7 @@
 
 body{
 
-	background:black;
+	background: black;
 	font-family: sans-serif;
 }
 
@@ -17,9 +17,10 @@ p{
 }
 
 .spacing{
-	position: left;
+	position: absolute;
 	color: white;
-
+	margin-top: 390px;
+	margin-left: 220px;
 }
 
 .spacing2{

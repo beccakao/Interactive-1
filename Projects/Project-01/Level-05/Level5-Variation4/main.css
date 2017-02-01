@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background:black;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 30
+}
+
+.spacing{
+	position: left;
+	color: white;
+
+}
+
+.spacing2{
+	padding-top: 10px;
+	margin-left: 5px;
+	margin-bottom:10px;
+	color: white;
+
+}
+
+.rect{
+	transition:height 3s ease;
+	width: 300px;
+	height: 5px;
+	background: #ffe0bd;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.rect:hover{
+	height:255px;
+}
+
+.rect2{
+	position: relative;
+	transition:height 3s ease;
+	width: 300px;
+	height: 5px;
+	background: #3F250B;
+	float: left;
+	margin-right: 5px;
+
+}
+
+.rect2:hover{
+	height:490px;
+}
+
+.rect3{
+	position: relative;
+	transition:height 3s ease;
+	width: 300px;
+	height: 5px;
+	background: #ffe0bd;
+	float: left;
+	margin-right: 5px;
+
+}
+
+.rect3:hover{
+	height:720px;
+}
+

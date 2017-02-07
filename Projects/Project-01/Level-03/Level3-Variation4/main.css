@@ -4,60 +4,163 @@
 
 body{
 
-	background: white;
+	background:white;
 }
 
-.pattern-1{
-	float: left;
-	width: 500px;
-	height: 500px;
-	margin: 20;
-	background-color: #dadada;
-}
-.spacing0{
-	position: absolute;
+.section1{
+	height:700px;
 }
 
-.spacing1{
-	position: absolute;
+.pattern-2{
+	position:absolute;
+	width: 725px;
+	height: 5px;
+	margin-left: 340px;
+	background-color: gray;
 }
 
-.spacing2{
-	padding: 80px 20px;
-	position: absolute;
+.pattern-8{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 350px;
+	background-color: gray;
 }
 
-.spacing3{
-	padding: 160px 40px;
-	position: absolute;
+.pattern-9{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 400px;
+	background-color: gray;
 }
 
-.spacing4{
-	padding: 240px 60px;
-	position: absolute;
+.pattern-10{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 450px;
+	background-color: gray;
 }
 
-.spacing5{
-	padding: 320px 80px;
-	position: absolute;
+.pattern-11{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 500px;
+	background-color: gray;
 }
 
-.spacing6{
-	padding: 400px 100px;
-	position: absolute;
+.pattern-12{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 550px;
+	background-color: gray;
+}
+.pattern-13{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 600px;
+	background-color: gray;
+}
+.pattern-14{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 650px;
+	background-color: gray;
 }
 
-.spacing7{
-	padding: 600px 200px;
-	position: absolute;
+.pattern-15{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 700px;
+	background-color: gray;
+}
+
+.pattern-16{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 750px;
+	background-color: gray;
+}
+
+.pattern-17{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 800px;
+	background-color: gray;
+}
+
+.pattern-18{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 850px;
+	background-color: gray;
+}
+
+.pattern-19{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 900px;
+	background-color: gray;
+}
+
+.pattern-20{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 950px;
+	background-color: gray;
+}
+
+.pattern-21{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 1000px;
+	background-color: gray;
+}
+
+.pattern-22{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 1050px;
+	background-color: gray;
+}
+
+.pattern-3{
+	position:absolute;
+	width: 725px;
+	height: 5px;
+	margin-left: 340px;
+	margin-top:700px;
+	background-color: gray;
 }
 
 p{
-	width: 500px;
-	margin: 10px;
+	position:fixed;
+	width: 100%;
+	margin-left: 570px;
+	margin-top:100px;
 }
 
-img{
-	float: right;
-	margin: 50px;
+h2{
+	position:absolute;
+	width: 100%;
+	margin-top: 10px;
+}
+
+h3{
+	position:absolute;
+	width: 100%;
+	margin-top: 50px;
 }

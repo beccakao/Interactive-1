@@ -7,9 +7,6 @@ body{
 	background:white;
 }
 
-.section-1{
-	height: 500px;
-}
 
 .pattern-2{
 	float: left;
@@ -19,16 +16,48 @@ body{
 	background-color: #dadada;
 }
 
-.section-2{	
-	width: 100%;
+.pattern1{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+	background-color: #dadada;
 }
 
+.pattern2{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 75px;
+	background-color: #dadada;
+}
+.pattern3{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 125px;
+	background-color: #dadada;
+}
 p{
 	width: 100%;
-	margin: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:100px;
+	text-align: center;
 }
 
-img{
-	float: left;
-	margin: 50px;
+h2{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:100px;
+	text-align: center;
+
+}
+
+h3{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
 }

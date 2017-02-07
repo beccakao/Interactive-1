@@ -3,12 +3,18 @@
 }
 
 .spacing1{
-	padding: 13px 13px;
+	padding: 0px 13px;
+	position: absolute;
+}
+
+.spacing0{
+	padding: 13px 300px;
 	position: absolute;
 }
 
 a {
-	font-weight: bold;
+	font-family: 'Barrio', cursive;	
+	font-size: 20px;
     color: white;
     text-decoration: none;
   }
@@ -21,9 +27,13 @@ a:hover {
 p{
 	width: 450px;
 	margin: 10px;
+	font-family: 'Barrio', cursive;	font-size: px;
 }
 
-img{
-	float: right;
-	margin: 50px;
+h1{
+	font-family: 'Barrio', cursive;
+}
+
+h3{
+	font-family: 'Barrio', cursive;
 }

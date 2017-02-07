@@ -3,61 +3,70 @@
 }
 .spacing1{
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 12px;
-	color: #FFC30F;
 
 }
 
 .spacing2{
-	padding: 80px 20px;
+	padding: 100px 20px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 14px;
-	color: #FFC30F;
 
 }
 
 .spacing3{
-	padding: 160px 40px;
+	padding: 180px 40px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 16px;
-	color: #FF5733;
 
 }
 
 .spacing4{
-	padding: 240px 60px;
+	padding: 260px 60px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 18px;
-	color: #FF5733;
 }
 
 .spacing5{
-	padding: 320px 80px;
+	padding: 340px 80px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 20px;
-	color: #C70039;
 }
 
 .spacing6{
-	padding: 400px 100px;
+	padding: 420px 100px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 22px;
-	color: #900C3F;
 }
 
 .spacing7{
 	padding: 600px 200px;
 	position: absolute;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Vidaloka', serif;
 	font-size: 24px;
-	color: #581845;
+	}
+
+.background{
+	width:1300px;
+	height:700px;
+	position:absolute;
 }
+
+.grad1 {
+	    height: 720px;
+	    width:1423px;
+	    background: #0e2933; /* For browsers that do not support gradients */    
+	    background: -webkit-linear-gradient(left, #0e2933 , #97dcff); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(right, #0e2933, #97dcff); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(right, #0e2933, #97dcff); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(to right, #0e2933 , #97dcff); /* Standard syntax (must be last) */
+		}
 
 a {
 	font-weight: bold;
@@ -72,12 +81,7 @@ a:hover {
 
 p{
 	float:left;
-	width: 133px;
+	width: 200px;
 	height: 50px;
 	margin: 20px;
-}
-
-img{
-	float: right;
-	margin: 50px;
 }

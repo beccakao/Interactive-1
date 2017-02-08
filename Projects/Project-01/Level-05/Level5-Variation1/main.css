@@ -1,70 +1,313 @@
 * {
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 body{
 
-	background:black;
-	font-family: sans-serif;
+	background:white;
+}
+
+.section1{
+	height:700px;
+}
+
+.pattern-2{
+	position:absolute;
+	width: 725px;
+	height: 5px;
+	margin-left: 340px;
+	background-color: gray;
+}
+
+.pattern-8{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 350px;
+	background-color: gray;
+}
+
+.pattern-9{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 400px;
+	background-color: gray;
+}
+
+.pattern-10{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 450px;
+	background-color: gray;
+}
+
+.pattern-11{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 500px;
+	background-color: gray;
+}
+
+.pattern-12{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 550px;
+	background-color: gray;
+}
+.pattern-13{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 600px;
+	background-color: gray;
+}
+.pattern-14{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 650px;
+	background-color: gray;
+}
+
+.pattern-15{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 700px;
+	background-color: gray;
+}
+
+.pattern-16{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 750px;
+	background-color: gray;
+}
+
+.pattern-17{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 800px;
+	background-color: gray;
+}
+
+.pattern-18{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 850px;
+	background-color: gray;
+}
+
+.pattern-19{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 900px;
+	background-color: gray;
+}
+
+.pattern-20{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 950px;
+	background-color: gray;
+}
+
+.pattern-21{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 1000px;
+	background-color: gray;
+}
+
+.pattern-22{
+	position:absolute;
+	width: 5px;
+	height: 700px;
+	margin-left: 1050px;
+	background-color: gray;
+}
+
+.pattern-8:hover{
+		transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 350px;
+	background-color: gray;
+}
+
+.pattern-9:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 50px;
+	margin-left: 400px;
+	background-color: gray;
+}
+
+.pattern-10:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 450px;
+	background-color: gray;
+}
+
+.pattern-11:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 500px;
+	background-color: gray;
+}
+
+.pattern-12:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 550px;
+	background-color: gray;
+}
+.pattern-13:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 600px;
+	background-color: gray;
+}
+.pattern-14:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 650px;
+	background-color: gray;
+}
+
+.pattern-15:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 700px;
+	background-color: gray;
+}
+
+.pattern-16:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 750px;
+	background-color: gray;
+}
+
+.pattern-17:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 800px;
+	background-color: gray;
+}
+
+.pattern-18:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 850px;
+	background-color: gray;
+}
+
+.pattern-19:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 900px;
+	background-color: gray;
+}
+
+.pattern-20:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 950px;
+	background-color: gray;
+}
+
+.pattern-21:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 1000px;
+	background-color: gray;
+}
+
+.pattern-22:hover{
+			transition:height 1s ease;
+
+	position:absolute;
+	width: 5px;
+	height: 5px;
+	margin-left: 1050px;
+	background-color: gray;
+}
+.pattern-3{
+	position:absolute;
+	width: 725px;
+	height: 5px;
+	margin-left: 340px;
+	margin-top:700px;
+	background-color: gray;
 }
 
 p{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color: white;
-	font-size: 12px;
+	position:fixed;
+	width: 100%;
+	margin-left: 570px;
+	margin-top:100px;
 }
 
-.square{
-	transition:width 2s ease;
-	width: 350px;
-	height: 222px;
-	float: left;
-	margin-right: 5px;
-
-  background: blue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, blue , black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, blue, black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, blue, black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, blue, black); /* Standard syntax */
-
+h2{
+	position:absolute;
+	width: 100%;
+	margin-top: 10px;
 }
 
-.square:hover{
-	width: 1180px;
-}
-
-.square2{
-	transition:width 2s ease;
-	width: 888px;
-	height: 222px;
-	float: left;
-	margin-right: 5px;
-
-  background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, white , black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, white, black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, white, black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, white, black); /* Standard syntax */
-}
-
-.square2:hover{
-	width: 1180px;
-}
-
-.square3{
-	transition:width 2s ease;
-	width: 888px;
-	height: 222px;
-	float: left;
-	margin-right: 5px;
-	 background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, red , black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, red, black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, red, black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, red, black); /* Standard syntax */
-
-}
-
-.square3:hover{
-	width: 1160px;
+h3{
+	position:absolute;
+	width: 100%;
+	margin-top: 50px;
 }

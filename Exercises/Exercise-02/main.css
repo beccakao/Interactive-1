@@ -1,0 +1,198 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin-top: 100px;
+	margin-left: 270px;
+	background: white;
+	position: absolute;
+}
+
+.balloon1{
+	  position: absolute;
+	  width: 220px;
+      height: 220px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: #BCED91;
+      margin-top: 330px;
+      margin-left: 440px;
+}
+
+.balloon2{
+	  position: absolute;
+	  width: 300px;
+      height: 300px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: #F6C9CC;
+      margin-top: 250px;
+      margin-left: 690px;
+  }
+
+  .balloon3{
+	  position: absolute;
+	  width: 138px;
+      height: 138px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: #27408B;
+      margin-top: 223px;
+      margin-left: 581px;
+  }
+
+  .pineapplebody{
+	  position: absolute;
+	  height: 260px;
+      width: 150px;
+      -webkit-border-radius: 70px;
+      -moz-border-radius: 70px;
+      border-radius: 70px;
+      background: #B5A642;
+      margin-top: 280px;
+      margin-left: 590px;
+  }
+
+  .pineapplehair1{
+  	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 170px solid #859C27;
+    margin-top: 130px;
+    margin-left: 610px;
+    -ms-transform: rotate(-35deg); /* IE 9 */
+    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+    transform: rotate(-35deg);
+}
+
+  .pineapplehair2{
+  	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 150px solid #859C27;
+    margin-top: 160px;
+    margin-left: 640px;
+    -ms-transform: rotate(13deg); /* IE 9 */
+    -webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
+    transform: rotate(13deg);
+}
+
+  .pineapplehair3{
+  	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 150px solid #859C27;
+    margin-top: 160px;
+    margin-left: 640px;
+     -ms-transform: rotate(27deg); /* IE 9 */
+    -webkit-transform: rotate(27deg); /* Chrome, Safari, Opera */
+    transform: rotate(27deg);
+}
+
+  .pineapplehair4{
+  	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 150px solid #859C27;
+    margin-top: 130px;
+    margin-left: 640px;
+}
+
+  .pineapplehair5{
+  	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 150px solid #859C27;
+    margin-top: 160px;
+    margin-left: 630px;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+  .pineapplehair6{
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 150px solid #859C27;
+    margin-top: 140px;
+    margin-left: 650px;
+    -ms-transform: rotate(23deg); /* IE 9 */
+    -webkit-transform: rotate(23deg); /* Chrome, Safari, Opera */
+    transform: rotate(23deg);
+}
+
+  .pineapplehair7{
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 150px solid #859C27;
+    margin-top: 110px;
+    margin-left: 610px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+
+  .pineapplehair8{
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 150px solid #859C27;
+    margin-top: 160px;
+    margin-left: 600px;
+    -ms-transform: rotate(-35deg); /* IE 9 */
+    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+    transform: rotate(-35deg);
+}
+
+  .vasebody{
+    position: absolute;
+    width: 100px;
+      height: 125px;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      border-radius: 40px;
+      background: #5d745d;
+      margin-top: 435px;
+      margin-left: 620px;
+  }
+
+  .pingkou{
+    position: absolute;
+    width: 30px;
+      height: 55px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 10px;
+      background: #5d745d;
+      margin-top: 420px;
+      margin-left: 654px;
+  }
+

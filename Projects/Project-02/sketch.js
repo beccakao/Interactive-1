@@ -3,6 +3,7 @@ var value1=0;
 var value2=255;
 
 function setup() {
+	createCanvas(displayWidth,displayHeight);
 	capture = createCapture(VIDEO);
   	capture.size(displayWidth,displayHeight);
   	capture.hide();
@@ -11,8 +12,6 @@ function setup() {
 function draw() {
 	frameRate(4);
 	image(capture, 0, 0, 320, 240);
-	filter('INVERT');
-
 
 //Start S
 //top horizontal

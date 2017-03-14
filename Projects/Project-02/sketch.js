@@ -5,7 +5,7 @@ var value2=255;
 function setup() {
 	createCanvas(1500,735);
 	capture = createCapture(VIDEO);
-  	capture.size(320,240);
+  	capture.size(400,600);
 }
 
 function draw() {

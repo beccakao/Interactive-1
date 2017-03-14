@@ -6,6 +6,7 @@ function setup() {
 	createCanvas(1500,735);
 	capture = createCapture(VIDEO);
   	capture.size(displayWidth,displayHeight);
+  	capture.hide();
 }
 
 function draw() {

@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
 	frameRate(4);
-	image(capture, 0, 0, 1000, 1000);
+	image(capture, 0, 0, displayWidth, displayHeight);
 	filter('INVERT');
 
 //Start S

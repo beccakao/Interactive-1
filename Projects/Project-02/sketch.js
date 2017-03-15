@@ -5,7 +5,7 @@ var value2=255;
 function setup() {
 	createCanvas(displayWidth,displayHeight);
 	capture = createCapture(VIDEO);
-  	capture.size(displayWidth,displayHeight);
+  	capture.size(240,320);
   	capture.hide();
 }
 

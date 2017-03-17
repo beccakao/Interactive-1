@@ -6,14 +6,14 @@ function setup() {
 	createCanvas(displayWidth,displayHeight);
 	capture = createCapture(VIDEO);
   	capture.size(640,480);
-  	//1024x700
+  	//1024x780
   	capture.hide();
 }
 
 function draw() {
 	background(255);
 	frameRate(4);
-	image(capture, 0, 0, displayWidth, displayHeight);
+	image(capture, 0, 0, 1024, 780);
 
 //Start S
 //top horizontal

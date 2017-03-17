@@ -13,7 +13,7 @@ function setup() {
 function draw() {
 	background(255);
 	frameRate(4);
-	image(capture, 0, 0, 320, 240);
+	image(capture, 0, 0, displayWidth, displayHeight);
 
 //Start S
 //top horizontal

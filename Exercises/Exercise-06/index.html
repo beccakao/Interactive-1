@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+  		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+
+  		<style>
+            .basic{
+                font-variant: small-caps;
+                font-family: 'Palanquin Dark', sans-serif;
+                color: #E15EFF;
+                position: relative;
+                text-align: center;
+                padding: 0.5em;
+                position: relative;
+                margin-top: 50px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+  			#draggable1{ 
+  				width: 300px;
+                background-color: black;
+                cursor: wait;
+  			 }
+            #draggable2{ 
+  				width: 300px;
+                background-color: black;
+                cursor: wait;
+  			 }
+            #draggable3{ 
+  				width: 300px;
+                background-color: black;
+                cursor: wait;
+  			 }
+            #draggable4{ 
+  				width: 300px;
+                background-color: black;
+                cursor: wait;
+                }
+            #draggable5{ 
+  				width: 300px;
+                background-color: black;
+                cursor: wait;
+                }
+            
+         #droppable1{
+              width: 400px;
+              border: #62FFF9 5px dashed;
+              }
+            #droppable2{
+              width: 400px;
+              border: #52FF44 5px dashed;
+              }
+            #droppable3{
+              width: 400px;
+              border: #F5FF40 5px dashed;
+             }
+            #droppable4{
+              width: 400px;
+              border: #E15EFF 5px dashed;
+             }
+            #droppable5{
+              width: 400px;
+              border: #FF5400 5px dashed;
+              margin-bottom: 50px;
+              }
+
+         #draggable:hover{
+          cursor: crosshair;
+         }
+
+
+  		</style>
+
+      <script>
+
+        $(function(){
+          $('#draggable1').draggable();
+          $('#draggable2').draggable();
+          $('#draggable3').draggable();
+          $('#draggable4').draggable();
+          $('#draggable5').draggable();
+          $('#droppable1').droppable();
+          $('#droppable2').droppable();
+          $('#droppable3').droppable();
+          $('#droppable4').droppable();
+          $('#droppable5').droppable();
+        });
+  
+      </script>
+	</head>
+
+	<body>
+
+		<div id= "draggable1" class="ui-widget-content, basic">
+			<p> drag me </p>
+		</div>
+        
+        <div id= "droppable1" class="ui-widget-header, basic">
+          <p> drop here </p>
+        </div>
+        
+        <div id= "draggable2" class="ui-widget-content, basic">
+			<p> drag me </p>
+		</div>
+        
+        <div id= "droppable2" class="ui-widget-header, basic">
+          <p> drop here </p>
+        </div>
+        
+        <div id= "draggable3" class="ui-widget-content, basic">
+			<p> drag me </p>
+		</div>
+        
+        <div id= "droppable3" class="ui-widget-header, basic">
+          <p> drop here </p>
+        </div>
+        
+        <div id= "draggable4" class="ui-widget-content, basic">
+			<p> drag me </p>
+		</div>
+        
+        <div id= "droppable4" class="ui-widget-header, basic">
+          <p> drop here </p>
+        </div>
+        
+        <div id= "draggable5" class="ui-widget-content, basic">
+			<p> drag me </p>
+		</div>
+
+        <div id= "droppable5" class="ui-widget-header, basic">
+          <p> drop here </p>
+        </div>
+
+	</body>
+</html

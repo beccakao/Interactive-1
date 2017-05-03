@@ -37,6 +37,10 @@ color: #fff;
 	float: right;
 }
 
+.ui-popup-screen.in{
+	background-color:black !important;
+}
+
 .pattern1{
 	position: relative;
 	float: left;
